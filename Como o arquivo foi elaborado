@@ -1,0 +1,35 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Para esta atividade, coloquei aqui apenas a parte física, não achei necessário indicar os diagramas lógicos e as tabelas visuais elaboradas no MySQL.
+O código físico foi elaborado no MySQL.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+**********************************************************************************************************************************************************************************
+Atividade da faculdade - criar banco de dados relacional com as seguintes informações:
+------------------------------------------------------------------------------------------------------------------------------------
+Identificação das Entidades e Atributos
+
+Livro: ISBN, título, ano de publicação.
+Autor: nome, nacionalidade.
+Membro: nome, e-mail, endereço (composto por CEP, rua, número e complemento), telefones (composto de número e tipo).
+Empréstimo: data_emprestimo, data_devolucao.
+Categoria: nome e descrição.
+Editora: nome, cidade, CNPJ.
+-------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------
+Relacionamentos:
+
+• Um livro pode ter vários autores, e um autor pode escrever vários livros.
+• Um livro pode ser publicado por apenas uma editora, mas uma editora pode publicar vários livros.
+• Um livro pertence a uma categoria, e uma categoria pode incluir vários livros.
+• Um membro pode pegar emprestado vários livros, mas cada empréstimo é relacionado a apenas um membro.
+• Um empréstimo envolve um livro específico.
+Considerações: todas as entidades deverão possuir um atributo Identificador.
+ ------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------------------------------
+Para esta atividade mapa, você deve:
+
+1. Criar o Diagrama Entidade Relacionamento (DER), que representa o projeto conceitual, com o uso da notação de CHEN. 
+2. Criar o  (MER), que representa o modelo lógico, por meio da tradução do DER criado anteriormente.
+3. Criar o projeto físico, por meio de código SQL, efetuando a criação do esquema de tabelas, respectivo ao MER criado anteriormente.
+--------------------------------------------------------------------------------------------------------------------------------------
+****************************************************************************************************************************************************************************************
